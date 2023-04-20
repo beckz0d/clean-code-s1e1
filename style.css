@@ -104,7 +104,7 @@ button {
 
 /* New Task */
 
-.section-title-add {
+.section-title__add {
   display: block;
   margin: 0 0 20px;
 }
@@ -131,7 +131,7 @@ button {
   vertical-align: middle;
 }
 
-.input-checkbox {
+.input__checkbox {
   margin: 0 10px;
 }
 
@@ -142,19 +142,19 @@ button {
   width: 226px;
 }
 
-.button-delete .button-delete-img {
+.button__delete .button-delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button-delete .button-delete-img:hover {
+.button__delete .button-delete-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-.tasks-list-completed .label {
+.tasks-list__completed .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -165,11 +165,11 @@ button {
   display: none;
 }
 
-.edit-mode .input-text {
+.edit__mode .input-text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .label {
+.edit__mode .label {
   display: none;
 }
